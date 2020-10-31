@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <title>点滴・輸液の滴下計算</title>
+    <meta name="keywords" content="点滴, 輸液, 滴下, 計算, 看護師">
+    <meta name="description" content="点滴・輸液の滴下計算ができるサイトです。">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>点滴・輸液の滴下計算</h1>
+<hr>
+<div id="tenteki-app">
+    <p>
+        <label>
+            <div class="menu">点滴容量:</div>
+            <select name="tentekiAmount" id="amount">
+                <option value="500">500ml</option>
+                <option value="100">100ml</option>
+            </select>
+        </label>
+    </p>
+    <div class="clear"></div>
+    <p>
+        <label>
+            <div class="menu">輸液セット:</div>
+            <select name="tentekiSet" id="speed">
+                <option value="20">成人用20滴</option>
+                <option value="60">小児用60滴</option>
+            </select>
+        </label>
+    </p>
+    <div class="clear"></div>
+    <p>
+        <label>
+            <div class="menu">時間:</div>
+            <select name="tentekiTime" id="time">
+                <option value="60">1時間</option>
+                <option value="120">2時間</option>
+                <option value="180">3時間</option>
+                <option value="240">4時間</option>
+                <option value="300">5時間</option>
+                <option value="360">6時間</option>
+                <option value="420">7時間</option>
+                <option value="480">8時間</option>
+                <option value="540">9時間</option>
+                <option value="600">10時間</option>
+                <option value="660">11時間</option>
+                <option value="720">12時間</option>
+                <option value="1440">24時間</option>
+            </select>
+        </label>
+    </p>
+    <div class="clear"></div>
+    <div id="keisanBtn">計算</div>
+    <p id="output">ここに点滴の滴下数が表示されます。</p>
+
+</div>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
