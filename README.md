@@ -14,5 +14,15 @@ https://github.com/hashiguchi1544/tenteki
 ## 学習したもの
 HTML,CSS,JavaScript
 
+## ディレクトリ
+```
+├── README.md
+├── index.html
+├── js
+│   ├── jquery-3.4.1.min.js
+│   └── main.js
+└── style.css
+```
+
 ## URL
 https://yasuh-blog.com/app/tenteki-app/
